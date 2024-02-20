@@ -16,7 +16,7 @@
         <!-- 2. Есть список элементов. Пользователь может добавлять новые элементы списка
         с текстом “Новый элемент списка” нажав на кнопку "Добавить". -->
         <ol>
-            <!-- <li v-for="(element, index) in array" @click="deleteElement(index)">{{element}}</li> -->
+            <li v-for="(element, index) in array" @click="deleteElement(index)">{{element}}</li>
             <!-- <li v-for="element in array" v-on:click="removeElement($event)">{{element}}</li> -->
         </or>
         <button @click="addNewElement">Добавить</button>
